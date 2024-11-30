@@ -75,3 +75,95 @@ function q10(){
     }
     console.log(sum);
 }
+function wq1(){
+    console.log("-------------------While Question 1-------------------");
+    let i=1
+    while(i<=10){
+        console.log(i)
+        i++
+    }
+}
+function wq2(){
+    console.log("-------------------While Question 2-------------------");
+    let i=5
+    while(i<=15){
+        console.log(i)
+        i++
+    }
+}
+function wq3(){
+    console.log("-------------------While Question 3-------------------");
+    let i=1
+    while(i<=10){
+        if(i%2==0)
+            console.log(i)
+        i++
+    }
+}
+function wq4(){
+    console.log("-------------------While Question 4-------------------");
+    let i=1
+    while(i<=5){
+        console.log(i*4)
+        i++
+    }
+}
+function wq5(){
+    console.log("-------------------While Question 5-------------------");
+    let i=1
+    let sum=0;
+    while(sum<50){
+        sum+=i
+        if(sum<50){
+            console.log(i)
+        }
+        i++
+    }
+}
+function dq1(){
+    console.log("-------------------Do While Question 1-------------------");
+    let i=1
+    do{
+        console.log(i)
+        i++
+    }while(i<=5);
+}
+function dq2(){
+    console.log("-------------------Do While Question 2-------------------");
+    let i=1
+    do{
+        console.log(i)
+        i++
+    }while(i<=10);
+}
+function dq3(){
+    console.log("-------------------Do While Question 3-------------------");
+    let i=1
+    do{
+        if(i%2!=0){
+        console.log(i)
+        }
+        i++
+    }while(i<=15);
+}
+function dq4(){
+    console.log("-------------------Do While Question 4-------------------");
+    let i=1
+    do{
+        if(i<100){
+            console.log(i)
+        }
+        i*=2
+    }while(i<100);
+}
+function dq5(){
+    console.log("-------------------Do While Question 5-------------------");
+    let a=String(document.getElementById("d5").value)
+    let i=0
+    let b=[];
+    do{
+        b[i]=a[i]
+        i++
+    }while(i<a.length);
+    document.getElementById("d5-ans").innerHTML = `${b}`;
+}
